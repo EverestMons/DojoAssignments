@@ -1,0 +1,126 @@
+Last login: Sun Feb 26 19:16:56 on ttys000
+Marks-MacBook-Air:~ Mack$ cd desktop
+Marks-MacBook-Air:desktop Mack$ ls
+CodingDojo		New Folder With Items	new_project
+DojoAssignments		[test]			test
+Marks-MacBook-Air:desktop Mack$ cd test
+Marks-MacBook-Air:test Mack$ ls
+aboutMe.txt	index.html	style.css
+Marks-MacBook-Air:test Mack$ vi aboutMe.txt
+Marks-MacBook-Air:test Mack$ commit aboutMe.txt "updated aboutMe"
+-bash: commit: command not found
+Marks-MacBook-Air:test Mack$ ls
+aboutMe.txt	index.html	style.css
+Marks-MacBook-Air:test Mack$ commit "updated aboutMe.txt"
+-bash: commit: command not found
+Marks-MacBook-Air:test Mack$ git commit aboutMe.txt "updated aboutMe.txt"
+error: pathspec 'aboutMe.txt' did not match any file(s) known to git.
+error: pathspec 'updated aboutMe.txt' did not match any file(s) known to git.
+Marks-MacBook-Air:test Mack$ ls
+aboutMe.txt	index.html	style.css
+Marks-MacBook-Air:test Mack$ git commit "first upload"
+error: pathspec 'first upload' did not match any file(s) known to git.
+Marks-MacBook-Air:test Mack$ cd ..
+Marks-MacBook-Air:desktop Mack$ git commit test
+fatal: Not a git repository (or any of the parent directories): .git
+Marks-MacBook-Air:desktop Mack$ ls
+CodingDojo		New Folder With Items	new_project
+DojoAssignments		[test]			test
+Marks-MacBook-Air:desktop Mack$ cd test
+Marks-MacBook-Air:test Mack$ git init "first upload"
+Initialized empty Git repository in /Users/Mack/Desktop/test/first upload/.git/
+Marks-MacBook-Air:test Mack$ ls
+aboutMe.txt	first upload	index.html	style.css
+Marks-MacBook-Air:test Mack$ vi aboutMe.txt
+Marks-MacBook-Air:test Mack$ git commit aboutMe.txt "modified aboutMe.txt"
+error: pathspec 'aboutMe.txt' did not match any file(s) known to git.
+error: pathspec 'modified aboutMe.txt' did not match any file(s) known to git.
+Marks-MacBook-Air:test Mack$ ls
+aboutMe.txt	first upload	index.html	style.css
+Marks-MacBook-Air:test Mack$ cd ..
+Marks-MacBook-Air:desktop Mack$ git init test
+Reinitialized existing Git repository in /Users/Mack/Desktop/test/.git/
+Marks-MacBook-Air:desktop Mack$ ls
+CodingDojo		New Folder With Items	new_project
+DojoAssignments		[test]			test
+Marks-MacBook-Air:desktop Mack$ cd test
+Marks-MacBook-Air:test Mack$ ls
+aboutMe.txt	first upload	index.html	style.css
+Marks-MacBook-Air:test Mack$ rm first upload
+rm: first: No such file or directory
+rm: upload: No such file or directory
+Marks-MacBook-Air:test Mack$ rm first_upload
+rm: first_upload: No such file or directory
+Marks-MacBook-Air:test Mack$ git commit aboutMe.txt
+error: pathspec 'aboutMe.txt' did not match any file(s) known to git.
+Marks-MacBook-Air:test Mack$ ls
+aboutMe.txt	first upload	index.html	style.css
+Marks-MacBook-Air:test Mack$ git commit
+On branch master
+
+Initial commit
+
+Untracked files:
+	aboutMe.txt
+	index.html
+	style.css
+
+nothing added to commit but untracked files present
+Marks-MacBook-Air:test Mack$ vi aboutMe.txt
+Marks-MacBook-Air:test Mack$ git commit "updated aboutMe.txt"
+error: pathspec 'updated aboutMe.txt' did not match any file(s) known to git.
+Marks-MacBook-Air:test Mack$ git commit -m "updated aboutMe.txt"
+On branch master
+
+Initial commit
+
+Untracked files:
+	aboutMe.txt
+	index.html
+	style.css
+
+nothing added to commit but untracked files present
+Marks-MacBook-Air:test Mack$ git add aboutMe.txt
+Marks-MacBook-Air:test Mack$ git commit -m "aboutMe.txt updated"
+[master (root-commit) 5599327] aboutMe.txt updated
+ 1 file changed, 6 insertions(+)
+ create mode 100644 aboutMe.txt
+Marks-MacBook-Air:test Mack$ git log
+commit 559932794f54c676e41b5e325af3cac3e058cf6f
+Author: Mark Lehn <marklehn@icloud.com>
+Date:   Sun Feb 26 19:40:00 2017 -0600
+
+    aboutMe.txt updated
+Marks-MacBook-Air:test Mack$ git add index.html
+Marks-MacBook-Air:test Mack$ git add style.css
+Marks-MacBook-Air:test Mack$ git commit -m "added other files"
+[master cca660e] added other files
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+ create mode 100644 style.css
+Marks-MacBook-Air:test Mack$ git log
+commit cca660e6cfc9ff65e4cfdfa02429a539e0e938fa
+Author: Mark Lehn <marklehn@icloud.com>
+Date:   Sun Feb 26 19:41:17 2017 -0600
+
+    added other files
+
+commit 559932794f54c676e41b5e325af3cac3e058cf6f
+Author: Mark Lehn <marklehn@icloud.com>
+Date:   Sun Feb 26 19:40:00 2017 -0600
+
+    aboutMe.txt updated
+Marks-MacBook-Air:test Mack$ git revert -n cca660e6cfc9ff65e4cfdfa02429a539e0e938fa
+Marks-MacBook-Air:test Mack$ git log
+commit cca660e6cfc9ff65e4cfdfa02429a539e0e938fa
+Author: Mark Lehn <marklehn@icloud.com>
+Date:   Sun Feb 26 19:41:17 2017 -0600
+
+    added other files
+
+commit 559932794f54c676e41b5e325af3cac3e058cf6f
+Author: Mark Lehn <marklehn@icloud.com>
+Date:   Sun Feb 26 19:40:00 2017 -0600
+
+    aboutMe.txt updated
+Marks-MacBook-Air:test Mack$ 
