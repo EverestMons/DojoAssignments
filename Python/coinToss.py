@@ -20,19 +20,3 @@ def Cointoss(number):
 
 x =Cointoss(10)
 print x
-
-
-
-
-
-# import random
-# coin_tosses = random.random()
-
-# for i in range (5000):
-#     if i < 2500:
-#         tails += 1
-#     else:
-#         heads += 1
-#
-# print heads
-# print tails
