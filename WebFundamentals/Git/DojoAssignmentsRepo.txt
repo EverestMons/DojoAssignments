@@ -1,0 +1,148 @@
+Last login: Sun Feb 26 19:22:06 on ttys000
+Marks-MacBook-Air:~ Mack$ cd desktop
+Marks-MacBook-Air:desktop Mack$ ls
+CodingDojo		New Folder With Items	new_project
+DojoAssignments		[test]			test
+Marks-MacBook-Air:desktop Mack$ cd DojoAssignments
+Marks-MacBook-Air:DojoAssignments Mack$ git init
+Initialized empty Git repository in /Users/Mack/Desktop/DojoAssignments/.git/
+Marks-MacBook-Air:DojoAssignments Mack$ git remote add origin https://github.com/EverestMons/DojoAssignments.git
+Marks-MacBook-Air:DojoAssignments Mack$ add .
+-bash: add: command not found
+Marks-MacBook-Air:DojoAssignments Mack$ git add .
+Marks-MacBook-Air:DojoAssignments Mack$ git init
+Reinitialized existing Git repository in /Users/Mack/Desktop/DojoAssignments/.git/
+Marks-MacBook-Air:DojoAssignments Mack$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/EverestMons/DojoAssignments.git'
+Marks-MacBook-Air:DojoAssignments Mack$ git add .
+Marks-MacBook-Air:DojoAssignments Mack$ git commit
+Aborting commit due to empty commit message.
+Marks-MacBook-Air:DojoAssignments Mack$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Marks-MacBook-Air:DojoAssignments Mack$ git remote add origin https://github.com/EverestMons/DojoAssignments.git
+fatal: remote origin already exists.
+Marks-MacBook-Air:DojoAssignments Mack$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/EverestMons/DojoAssignments.git'
+Marks-MacBook-Air:DojoAssignments Mack$ ls
+MEAN		Python		Ruby		WebFundamentals	iOS		netCore
+Marks-MacBook-Air:DojoAssignments Mack$ git remote add origin https://github.com/EverestMons/DojoAssignments.git
+fatal: remote origin already exists.
+Marks-MacBook-Air:DojoAssignments Mack$ 
+Marks-MacBook-Air:DojoAssignments Mack$ git remote add origin https://github.com/EverestMons/DojoAssignments.git
+fatal: remote origin already exists.
+Marks-MacBook-Air:DojoAssignments Mack$ git remote add origin https://github.com/EverestMons/DojoAssignments.git
+fatal: remote origin already exists.
+Marks-MacBook-Air:DojoAssignments Mack$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/EverestMons/DojoAssignments.git'
+Marks-MacBook-Air:DojoAssignments Mack$ git init
+Reinitialized existing Git repository in /Users/Mack/Desktop/DojoAssignments/.git/
+Marks-MacBook-Air:DojoAssignments Mack$ add .
+-bash: add: command not found
+Marks-MacBook-Air:DojoAssignments Mack$ add
+-bash: add: command not found
+Marks-MacBook-Air:DojoAssignments Mack$ git add .
+Marks-MacBook-Air:DojoAssignments Mack$ git commit
+[master (root-commit) 9921ccb] initial upload
+ 10 files changed, 126 insertions(+)
+ create mode 100644 MEAN/about.txt
+ create mode 100644 Python/about.txt
+ create mode 100644 Ruby/about.txt
+ create mode 100644 WebFundamentals/CSS/about.txt
+ create mode 100644 WebFundamentals/Git/Learning to Commit.txt
+ create mode 100644 WebFundamentals/Git/about.txt
+ create mode 100644 WebFundamentals/HTML/about.txt
+ create mode 100644 WebFundamentals/Javascript/about.txt
+ create mode 100644 iOS/about.txt
+ create mode 100644 netCore/about.txt
+Marks-MacBook-Air:DojoAssignments Mack$ git remote add origin https://github.com/EverestMons/DojoAssignments.git
+fatal: remote origin already exists.
+Marks-MacBook-Air:DojoAssignments Mack$ git push -u origin master
+Username for 'https://github.com': EverestMons
+Password for 'https://EverestMons@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/EverestMons/DojoAssignments.git/'
+Marks-MacBook-Air:DojoAssignments Mack$ git push -u origin master
+Username for 'https://github.com': EverestMons
+Password for 'https://EverestMons@github.com': 
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 1.37 KiB | 0 bytes/s, done.
+Total 7 (delta 0), reused 0 (delta 0)
+To https://github.com/EverestMons/DojoAssignments.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+Marks-MacBook-Air:DojoAssignments Mack$ touch readme.md
+Marks-MacBook-Air:DojoAssignments Mack$ vi readme.md
+Marks-MacBook-Air:DojoAssignments Mack$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	readme.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+Marks-MacBook-Air:DojoAssignments Mack$ git add .
+Marks-MacBook-Air:DojoAssignments Mack$ git commit -m "added readme.me"
+[master 251abac] added readme.me
+ 1 file changed, 1 insertion(+)
+ create mode 100644 readme.md
+Marks-MacBook-Air:DojoAssignments Mack$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 310 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local objects.
+To https://github.com/EverestMons/DojoAssignments.git
+   9921ccb..251abac  master -> master
+Branch master set up to track remote branch master from origin.
+Marks-MacBook-Air:DojoAssignments Mack$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+Marks-MacBook-Air:DojoAssignments Mack$ 

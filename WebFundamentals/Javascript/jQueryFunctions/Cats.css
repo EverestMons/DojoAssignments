@@ -1,0 +1,124 @@
+body{
+  width: 1000px;
+  background-image: radial-gradient(#036262, white);
+  margin-left: 170px;
+}
+button{
+  background-color: #004949;
+  border-radius: 5px;
+  padding: 15px;
+  color: #3E9797;
+  border-color: #0D7777;
+  font-size: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+
+}
+.title{
+  font-size: 30px;
+  text-align: center;
+}
+.red{
+  color: red;
+}
+.val{
+  width: 200px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 50px;
+  margin-top: 125px;
+}
+.val button{
+ margin-left: 100px;
+}
+h1{
+  text-align: center;
+}
+.button{
+  text-align: center;
+
+}
+.box{
+  width: 50px;
+  background-color: grey;
+  margin-left: 10px;
+  font-size: 14px;
+}
+.show{
+  width: 600px;
+  display: inline-block;
+  padding-bottom: 100px;
+}
+.show button{
+  margin-left: 150px;
+}
+.lonely{
+  width: 500px;
+  display: inline-block;
+  padding-bottom: 100px;
+  }
+.slide{
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+
+  }
+.slide img{
+    width: 100px;
+    vertical-align: top;
+  }
+.fadein{
+  width: 100%;
+  text-align: center;
+}
+.fadein button{
+  vertical-align: top;
+}
+.fadein .textcat{
+  margin-left: 130px;
+}
+.fadeout{
+  text-align: center;
+}
+.fadeout .togglecat{
+  margin-left: 100px;
+  vertical-align: top;
+}
+.togbutton{
+  text-align: center;
+
+}
+.differentcat{
+  text-align: center;
+}
+.togglecatbutton{
+  text-align: center;
+}
+.toggle{
+  text-align: center;
+}
+.fadeout .snowcat{
+  margin-left: 100px;
+  vertical-align: top;
+  margin-top: 55px;
+}
+.fadein .anothercat{
+  margin-left: 150px;
+}
+.lonely h6{
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+}
+.lonely button{
+  vertical-align: top;
+  margin-left: 220px;
+  margin-top: -160px;
+}
+h4{
+  color: white;
+}
+.attr{
+  text-align: center;
+}

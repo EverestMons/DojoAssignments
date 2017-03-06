@@ -1,0 +1,9 @@
+table{
+  border: 2px solid black;
+}
+table th{
+  padding-right: 50px;
+}
+hr{
+  width: 30%;
+}
