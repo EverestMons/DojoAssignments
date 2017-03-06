@@ -4,5 +4,5 @@ def draw_stars(lst):
         print i
 
 
-x = [4,6,1,3,5,7,25]
+x = [4,6,1,3,5,7,25]git
 print draw_stars(x)
