@@ -1,0 +1,97 @@
+#content{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
+.wrapper{
+  border: 1px solid black;
+}
+.headersub{
+  height: 75px;
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+  font-family:"gotham";
+}
+.content{
+  background-color: red;
+  border: 1px solid black;
+  background-image: radial-gradient(circle, purple, grey, black);
+  padding-bottom: 20px;
+}
+.top{
+  margin: 10px;
+}
+.top img{
+  margin: 10px;
+  width: auto;
+  border: solid silver 5px;
+  vertical-align: top;
+}
+.bio{
+  width: 410px;
+  height: 310px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px;
+  background-image: linear-gradient(white,grey,white);
+}
+.vertbox{
+display: inline-block;
+margin-left: 15px;
+width: 300px;
+vertical-align: top;
+}
+.techtitle img{
+  width: 300px;
+
+}
+.tech img{
+width:50px;
+
+}
+.belowimage{
+  background-color: white;
+  padding-bottom: 20px;
+  background-image: linear-gradient(white,grey,white);
+}
+.techtitle{
+    background-image: linear-gradient(black,grey,black);
+    color: white;
+
+}
+.about{
+  background-image: linear-gradient(black,grey,black);
+  color:white;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  vertical-align: top;
+
+}
+.texttop{
+  width: 400px;
+  margin-top: 10px;
+  height: auto;
+  padding-bottom: 30px;
+  margin-left: 10px;
+}
+.foot{
+  text-align: center;
+}
+button{
+  margin-left: 100px;
+  color: white;
+  background-color: green;
+  border-radius: 5px;
+}
+h3{
+  background-image: linear-gradient(black,grey,black);
+  color: white;
+  padding-left: 5px;
+}
+.headersub h2{
+  margin-left: 70px;
+}
+.headersub h1{
+  margin-left: 10px;
+}

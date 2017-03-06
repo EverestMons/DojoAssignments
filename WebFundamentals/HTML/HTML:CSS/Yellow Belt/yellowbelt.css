@@ -1,0 +1,121 @@
+body{
+  background-color: black;
+}
+#wrapper{
+  background-color: #062134;
+  margin-left: auto;
+  margin-right: auto;
+  width: 850px;
+  padding: 10px;
+}
+#header{
+  width: auto;
+  display: inline-block;
+}
+#header span{
+  word-spacing: 60px;
+  color: white;
+  margin-left: 10px;
+}
+#header a{
+  color: #198ED8;
+}
+#header p{
+  display: inline-block;
+  width: 300px;
+  color: white;
+  font-size: 25px;
+  margin-left: 20px;
+}
+#mainimg{
+  width: 820px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+}
+#main{
+  background-color: #FFFFFF;
+  padding:10px;
+}
+button{
+  background-image: linear-gradient(#58B1EA, #1A93DF);
+  color: white;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  align-items: center;
+  border-radius: 5px;
+  margin: 10px;
+  border-color: #1468A8;
+
+}
+.boxes{
+  color: white;
+  background-color: #1468A8;
+  width: 263px;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.boxes p{
+  margin-left: 15px;
+  font-size: 11px;
+}
+.icon{
+  width: 30px;
+  display: inline-block;
+  margin: 5px;
+  margin-top: 15px;
+  vertical-align: top;
+  background-color: white;
+  border-radius: 28px;
+}
+.theworldcanbeyours{
+  width: 32%;
+  display: inline-block;
+  vertical-align: top;
+  margin:2px;
+}
+.theworldcanbeyours img{
+  width: 90%;
+}
+.boxes h3{
+  display: inline-block;
+  width: 100px;
+  vertical-align: top;
+}
+.text{
+  padding-top: 45px;
+  width: 32%;
+  display: inline-block;
+  margin: 1px;
+  font-size: 12px;
+}
+.text input{
+  color: blue;
+  width: 90px;
+}
+.testimonial{
+  width: 32%;
+  display: inline-block;
+  vertical-align: top;
+  margin:2px;
+}
+#footer a{
+  color: #91B5D2;
+}
+#footer{
+  word-spacing: 30px;
+  text-align: center;
+  background-color: #DAEDFF;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-top: solid black 1px;
+}
+.testimonial p{
+  color: #8CA2B4;
+  padding: 15px;
+  background-color: #DAEDFF;
+}

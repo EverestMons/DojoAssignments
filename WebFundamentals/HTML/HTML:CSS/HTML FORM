@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title> ID Form </title>
+    </head>
+<form action="process.php" method="post">
+    <p>
+      <h4>Please Register</h4>
+    </p>
+    <label>
+      First Name:<input type="text" name="first_name" id="first_name">
+    </label>
+    <p></p>
+    <label>
+       Last Name:<input type="text" name="last_name" id="last_name">
+    </label>
+    <p></p>
+    <label>
+      Email:<input type="text" name="email" id="email">
+    </label>
+    <p></p>
+    <label>
+      Password:<input type="text" name="password" id="email">
+    </label><p></p>
+    <label>
+      PW Confirm:<input type="text" name="password_confirm" id="password_confirm">
+    </label>
+    <p></p>
+    <label>
+      Birthday:<input type="date" name="birthday" id="birthday" min="1920-12-31" max="2000-1-31"><br>
+    </label>
+    <p></p>
+    <label>
+      Male<input type="radio" name="gender" value="male">
+      Female<input type="radio" name="gender" value="female">
+      Other<input type="radio" name="gender" value="other">
+    </label>
+    <p></p>
+    <label>
+      Say something about yourself:<input type="textarea" name="say_something" id="say_something">
+    </label>
+    <p></p>
+    <label>
+      Favorite Coding Language
+      <select name="favorite_language">
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="Java">Java</option>
+      </select>
+    </label>
+    <p></p>
+    <input type="submit" value="Submit">
+</form>
+</html>

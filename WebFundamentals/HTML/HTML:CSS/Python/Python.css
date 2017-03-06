@@ -1,0 +1,131 @@
+.start{
+  background-color: #1B4F78;
+}
+.wrapper{
+  background: #FFFFFF;
+  width: 970px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.top h6 span{
+  color:#949227;
+}
+.top h6{
+  margin-left: 830px;
+  display: inline-block;
+  vertical-align: top;
+}
+.elements{
+  display: inline-block;
+  vertical-align: top;
+  background-color: #444444;
+  margin-left: 320px;
+  padding-right: 20px;
+  border-radius: 10px;
+  border: solid black 1px;
+  box-shadow: 0px 0px 10px black;
+}
+img{
+  display: inline-block;
+  width: 350px;
+}
+.elements span{
+margin-right: 40px;
+background-color: white;
+margin-left: 30px;
+padding-top: 8px;
+padding-bottom: 8px;
+padding-left: 55px;
+padding-right: 55px;
+border: solid grey 2px;
+box-shadow: 0px 0px 10px black;
+}
+button{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #1B4F78;
+  box-shadow: 0px 0px 10px black;
+}
+.tabs{
+  background-color: #3C7DAF;
+  box-shadow: 0px 0px 10px black;
+  text-align: center;
+  word-spacing: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
+  color: white;
+  border-radius: 5px;
+  padding:1px;
+}
+.side{
+  display: inline-block;
+  vertical-align: top;
+}
+.side u{
+  color: white;
+}
+.side ul{
+  color: yellow;
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+}
+.main{
+  display: inline-block;
+  width: 700px;
+  text-align: center;
+}
+.main span{
+  font-size: 30px;
+  color: #F2CE08;
+}
+.main h5{
+  font-size: 14px;
+  color: white;
+}
+.left{
+  text-align: center;
+  width: 400px;
+  display: inline-block;
+  margin-right: 75px;
+  vertical-align: top;
+}
+.left span{
+  color: blue;
+
+}
+.right span{
+  color: blue
+}
+.right{
+  text-align: center;
+  width: 400px;
+  display: inline-block;
+  margin-left: 75px;
+  vertical-align: top;
+}
+.centertext{
+  padding-top: 30px;
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+.centertext a{
+  margin-right: 40px;
+  color: cyan;
+  font-size: 20px;
+}
+.lowertext{
+  text-align: center;
+}
+.foot{
+  background-color:#1B4F78;
+}
+.blocks{
+  width: 49%;
+  background-color: blue;
+  height: 5px;
+  display: inline-block;
+  margin:auto;
+  
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>The Blog of Google</title>
+        <meta name="discription" content="The text here describes what the
+        webpage is about. It's what will show up in search results for search
+        engines like google under the title of the webpage. It's important
+        that this is relevant to your page and well written!">
+    </head>
+    <body>
+      <h1>The Blog of Google</h1>
+      <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" style="width:500px; height:158px;">
+      <div id="main_text">
+        <h3>A Short History</h3>
+        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s with the release of
+        Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+        publishing software like Aldus PageMaker including versions of Lorem Ipsum
+        </p>
+      </div id="table">
+        <table>
+          <thead>
+            <tr>
+              <th><h3>Years</h3></th>
+              <th><h3>Days of the Week<h3></th>
+              <th><h3>Times<h3></th>
+            </tr>
+            <tr>
+              <td>1885</td>
+              <td>Thursday</td>
+              <td>8:50AM</td>
+            </tr>
+            <tr>
+              <td>1376</td>
+              <td>Monday</td>
+              <td>5:55PM</td>
+            </tr>
+            <tr>
+              <td>2013</td>
+              <td>Wednesday</td>
+              <td>12:00AM</td>
+            </tr>
+            <tr>
+              <td>1666</td>
+              <td>Sunday</td>
+              <td>6:33PM</td>
+            </tr>
+          </thead>
+        </table>
+      <div id="facts_list">
+        <ul>
+          <li>Google got its name by accident. The founders misspelled "googol", which refers to the number 1 followed by 100 zeroes.</li>
+          <li>Google prefers dogs to cats. Their official code of conduct specifically states they are a dog company.</li>
+          <li>Google was originally called "Backrub"</li>
+        </ul>
+      </div>
+      <div id="external_link">
+        <a href="https://www.youtube.com/watch?v=KIViy7L_lo8">2016-A Year in Google Searches</a>
+      </div>
+      <p> Please Take a Short Survey</p>
+        <label>
+          Name:<input type="text" name="name"><br>
+        </label>
+        <label>
+          Email:<input type="text" name="email"><br>
+        </label>
+        <label>
+          Favorite Mythical Creature:<input type="text" name="mythical_creature"><br>
+        </label><br>
+        <label>
+          <input type="radio" name="yes_to_email">Receive Promotional Emails
+          <input type="radio" name="no_to_email">No Promotional Emails
+        </label><br>
+      <p> How did you hear about us? </p>
+        <label>
+          <input type="checkbox" name="how_did_you_hear_about_us" value="facebook">Facebook<br>
+        </label>
+        <label>
+          <input type="checkbox" name="how_did_you_hear_about_us" value="refered_by_friend">Refered By Friend<br>
+        </label>
+        <label>
+          <input type="checkbox" name="how_did_you_hear_about_us" value="google_search">Google Search<br>
+          </label><br>
+      <input type="submit" value="Submit">
+
+</html>
